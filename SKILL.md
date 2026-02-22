@@ -1,13 +1,7 @@
 ---
 name: humanizer
-description: >-
-  Remove signs of AI-generated writing from text. Use when editing or reviewing
-  text to make it sound more natural and human-written. Based on Wikipedia's
-  comprehensive "Signs of AI writing" guide. Detects and fixes patterns
-  including: inflated symbolism, promotional language, superficial “-ing”
-  analyses, vague attributions, em dash overuse, rule of three, AI vocabulary
-  words, negative parallelisms, and excessive conjunctive phrases.
-allowed_tools:
+description: "Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's guide on signs of AI writing. Detects and fixes patterns such as inflated symbolism, promotional language, superficial -ing analyses, vague attributions, overuse of em dashes, rule of three, AI vocabulary words, negative parallelisms, and excessive conjunctive phrases."
+allowed-tools:
   - Read
   - Write
   - Edit
